@@ -1,6 +1,6 @@
 #  Teste de UI usando Pytest+SeleniumBase
 
-## Instalando módulos 
+## Instalando dependências
 ```bash
     $ pip install pytest-html
     $ pip install seleniumbase
