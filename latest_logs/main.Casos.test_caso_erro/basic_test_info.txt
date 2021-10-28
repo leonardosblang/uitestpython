@@ -1,0 +1,22 @@
+main.py::Casos::test_caso_erro
+--------------------------------------------------------------------
+Last Page: https://seleniumbase.io/demo_page
+  Browser: chrome
+Timestamp: 1635463319  (Unix Timestamp)
+     Date: Thursday, 28 October 2021
+     Time: 8:21:59 PM  (Hora oficial do Brasil, UTC-03:00)
+--------------------------------------------------------------------
+Traceback: File "C:\Program Files\Python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "C:\Users\Leolang\PycharmProjects\pythonProject11\main.py", line 38, in test_caso_erro
+    self.assert_text("This Text is Blue", "#pText")
+  File "C:\Users\Leolang\PycharmProjects\pythonProject11\venv\lib\site-packages\seleniumbase\fixtures\base_case.py", line 8821, in assert_text
+    self.wait_for_text_visible(text, selector, by=by, timeout=timeout)
+  File "C:\Users\Leolang\PycharmProjects\pythonProject11\venv\lib\site-packages\seleniumbase\fixtures\base_case.py", line 8751, in wait_for_text_visible
+    self.driver, text, selector, by, timeout
+  File "C:\Users\Leolang\PycharmProjects\pythonProject11\venv\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 443, in wait_for_text_visible
+    timeout_exception(ElementNotVisibleException, message)
+  File "C:\Users\Leolang\PycharmProjects\pythonProject11\venv\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 163, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Expected text {This Text is Blue} for {#pText} was not visible after 6 seconds!
