@@ -3,6 +3,7 @@
 ## Instalando módulos 
 ```bash
     $ pip install pytest-html
+    $ pip install seleniumbase
 ```
 ## Executando e gerando o relatório
 ```bash
