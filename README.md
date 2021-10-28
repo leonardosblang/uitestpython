@@ -2,6 +2,7 @@
 
 ## Instalando dependências
 ```bash
+    $ pip install pytest
     $ pip install pytest-html
     $ pip install seleniumbase
 ```
