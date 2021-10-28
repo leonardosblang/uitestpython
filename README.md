@@ -9,4 +9,4 @@
     pytest main.py  --html=report.html
 ```
 
-<image src="./images/report.png">
+<image src="./images/report.PNG">
