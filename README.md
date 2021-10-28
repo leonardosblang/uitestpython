@@ -9,4 +9,5 @@
     pytest main.py  --html=report.html
 ```
 
+## Relatório
 <image src="./images/report.PNG">
